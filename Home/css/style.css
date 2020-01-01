@@ -1,0 +1,408 @@
+.header{
+    width: 100%;
+    height: 62px;
+    background: #181b23;
+}
+
+.left{
+    float: left;
+}
+
+.header .left p{
+    font-style: italic;
+    font-size: 16px;
+    color: #7b7c7f;
+    padding-left: 71px;
+    padding-top: 20px;
+}
+
+.header .left span{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    padding-right: 18px;
+}
+
+.header .right{
+    float: right;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header .right div{
+    border-left: 1px solid #2d333d;
+}
+
+.header .right div:hover{
+    background: #111418;
+    cursor: pointer;
+}
+
+.header .right .introduce{
+    width: 173px;
+    height: 62px;
+    line-height: 62px;
+    float: left;
+}
+
+.header .right .signup{
+    width: 132px;
+    height: 62px;
+    line-height: 62px;
+    float: left;
+}
+
+.header .right .login{
+    width: 184px;
+    height: 62px;
+    line-height: 62px;
+    float: left;
+}
+
+.header .right span{
+    padding-left: 18px;
+}
+
+.header .right span i{
+    padding-right: 10px;
+}
+
+.body .banner{
+    height: 465px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background: url("image/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .title{
+    font-weight: bold;
+    font-size: 52px;
+    padding-top: 78px;
+    text-align: center;
+}
+
+.banner .para {
+    font-size: 22px;
+    padding-top: 41px;
+    text-align: center;
+    line-height: 1.636;
+    width: 675px;
+    margin: 0 auto;
+}
+
+.banner .para span{
+    font-weight: bold;
+}
+
+.banner .para p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner .button{
+    padding-top: 54px;
+    width: 431px;
+    margin: 0 auto;
+}
+
+.button .button1{
+    height: 50px;
+    width: 233px;
+    background: #83c129;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #518719;
+}
+
+.button1 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.button .button2{
+    height: 50px;
+    width: 173px;
+    background: #068fd5;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #046b9f;
+}
+
+.button2 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#content{
+    background: #ffffff;
+    height: 736px;
+}
+
+div.slider{
+    width: 1139px;
+    height: 273px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.slider .first,.second,.third{
+    width: 349px;
+    height: 273px;
+    border: 1px solid #d9dbdf;
+    border-radius: 5px;
+    float: left;
+}
+
+.slider .first{
+    margin-right: 43px;
+}
+
+.slider .second{
+    margin-right: 43px;
+}
+
+.content{
+    padding: 15px;
+}
+
+.content .image{
+    padding-bottom: 13px;
+}
+
+.content .ava img{
+    float: left;
+    padding-right: 11px;
+}
+
+.content .ava p{
+    float: left;
+    line-height: 1.4;
+    color: #8e959c;
+}
+
+.content .ava p span{
+    color: #454e5c;
+}
+
+.news{
+    height: 152px;
+    width: 1141px;
+    border-top: 2px solid #e7e8ea;
+    border-bottom: 2px solid #e7e8ea;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+.news div{
+    padding-top: 31px;
+    float: left;
+}
+
+.news div img{
+    float: left;
+    border-radius: 50%;
+}
+
+.news div p{
+    float: left;
+    padding-top: 9px;
+    line-height: 1.4;
+    color: #55606e;
+}
+
+.news div p span{
+    color: #abb1bb;
+}
+
+.news .num1{
+    margin-right: 74px;
+    padding-left: 5px;
+}
+
+.news .num2{
+    margin-right: 49px;
+}
+
+.news .num3{
+    padding-right: 10px;
+}
+
+.news .num1 p{
+    padding-left: 24px;
+    width: 207px;
+}
+
+.news .num2 p{
+    padding-left: 25px;
+    width: 232px;
+}
+
+.news .num3 p{
+    padding-left: 24px;
+    width: 224px;
+}
+#featured{
+    width: 1040px;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 107px;
+    margin-top: 54px;
+}
+
+.featured span{
+    color: #454e5c;
+    font-size: 16px;
+}
+
+.featured{
+    float: left;
+    margin-right: 21px;
+}
+
+.newTexas span{
+    color: #cbced1;
+    font-size: 36px;
+}
+
+.newTexas{
+    float: left;
+    margin-right: 39px;
+}
+
+.wooden span{
+    font-family: 'Sniglet', cursive;
+    font-size: 36px;
+    color: #454e5c;
+}
+
+.wooden{
+    float: left;
+    margin-right: 40px;
+}
+
+.vermya span {
+    font-family: 'Open Sans', sans-serif;
+    color: #cbced1;
+    font-size: 30px;
+}
+
+.vermya{
+    float: left;
+    margin-right: 40px;
+}
+
+.openBook span{
+    font-family: 'Open Sans', sans-serif;
+    color: #cbced1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.openBook span i{
+    padding-right: 17px;
+}
+
+.openBook{
+    float: left;
+    margin-right: 39px;
+}
+
+.twitter{
+    float: left;
+    font-size: 30px;
+    color: #c6cacd;
+}
+
+.footer{
+    height: 226px;
+    background: #191d24;
+}
+
+.footer .main{
+    padding-top: 40px;
+    padding-left: 70px;
+    float: left;
+}
+
+.footer div span{
+    font-family: 'Open Sans', sans-serif;
+    color: #f4f4f5;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer div ul{
+    padding-top: 25px;
+}
+
+.footer div ul li{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+    font-size: 12px;
+    color: #888f96;
+}
+
+.footer .company{
+    padding-top: 40px;
+    float: left;
+    margin-left: 78px;
+}
+
+.footer .oneMore{
+    padding-top: 40px;
+    float: left;
+    margin-left: 79px;
+}
+
+.footer .lastOne{
+    padding-top: 40px;
+    float: left;
+    margin-left: 78px;
+}
+
+.footer .right{
+    float: right;
+    margin-right: 70px;
+}
+
+.footer .right .connect{
+    margin-top: 40px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.footer .right .connect i{
+    margin-left: 20px;
+}
+
+.footer .right .test{
+    text-align: right;
+    margin-top: 92px;
+    line-height: 1.4;
+}
+
+.footer .right .test span{
+    color: #737980;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
