@@ -8,53 +8,201 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="owl-carousel/owl.theme.css">
 </head>
 <body>
-    <div id="logo"><img src="image/logo.png" alt=""></div>
+    <div id="logo"><img src="css/image/logo.png" alt=""></div>
     <header id="header">
         <div class="menu"></div>
         <div id="banner" class="owl-carousel owl-theme">
-            <div><img src="image/1.jpg" alt=""></div>
-            <div><img src="image/2.jpg" alt=""></div>
-            <div><img src="image/3.jpg" alt=""></div>
-            <div><img src="image/4.jpg" alt=""></div>
-            <div><img src="image/5.jpg" alt=""></div>
+            <div class="img1" style="background-image: url('css/image/1.jpg')"></div>
+            <div class="img2" style="background-image: url('css/image/2.jpg')"></div>
+            <div class="img3" style="background-image: url('css/image/3.jpg')"></div>
+            <div class="img4" style="background-image: url('css/image/4.jpg')"></div>
+            <div class="img5" style="background-image: url('css/image/5.jpg')"></div>
         </div>
     </header>
 
-    <div id="body">
-        <div class="title">
-            <div class="welcome">
-                <p><span>WELCOME TO</span><br>YOURCOMPANYNAME</p>
+    <div id="section">
+        <div class="team-leader container-fluid ">
+            <div class="row top">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                    <img src="css/image/teamLeader.png" alt="">
+                    <hr>
+                </div>
+                <div class="col-sm"></div>
             </div>
-        </div>
-        <div class="team-leader container">
             <div class="row">
-                <span>OUR TEAM LEADERS</span>
-                <hr>
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                    <img src="css/image/text.png" alt="">
+                </div>
+                <div class="col-sm"></div>
             </div>
-            <div class="row"></div>
-            <div class="row"></div>
+            <div class="row bottom">
+                <div class="col">
+                    <div class="image"><img src="css/image/1.jpg" alt=""></div>
+                    <div class="name"><span>Hugo Silva</span></div>
+                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class="image"><img src="css/image/2.jpg" alt=""></div>
+                    <div class="name"><span>Imanol Arias</span></div>
+                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
+                </div>
+                <div class="col">
+                    <div class="image"><img src="css/image/3.jpg" alt=""></div>
+                    <div class="name"><span>Javier Bardem</span></div>
+                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
+                </div>
+            </div>
         </div>
         <div class="advantages">
             <div class="information"></div>
         </div>
-        <div class="contact-us"></div>
+        <div class="contact-us">
+            <div class="container">
+                <div class="row title">
+                    <div class="col"></div>
+                    <div class="col"><img src="css/image/contactUs.png" alt=""></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row text">
+                    <div class="col"></div>
+                    <div class="col"><img src="css/image/sedUt.png" alt=""></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row form">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <form class="col-md" action="javascript:void (0)" onsubmit="return validate()">
+                            <div class="form-row line">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <select class="form-control" name="category" id="category">
+                                        <option value="0">Category</option>
+                                        <option value="cate1">cate1</option>
+                                        <option value="cate2">cate2</option>
+                                        <option value="cate3">cate3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row line">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" placeholder="Phone" name="phone" id="phone">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <select class="form-control" name="city" id="city">
+                                        <option value="0">City</option>
+                                        <option value="hanoi">Hà Nội</option>
+                                        <option value="hochiminh">Hồ Chí Minh</option>
+                                        <option value="danang">Đà Nẵng</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group line">
+                                <input type="email" class="form-control" placeholder="Email" name="email" id="email">
+                            </div>
+                            <div class="form-group line">
+                                <label for="message" style="color: #7c7f80;">Message</label>
+                                <textarea class="form-control" rows="3" name="message" id="message" style="resize: none;"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Contact us</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
         <div class="about"></div>
         <div class="gallery"></div>
+        <div class="slide">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
     </div>
 
     <footer id="footer">
         <div class="top"></div>
-        <div class="bottom"></div>
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img src="css/image/copyRight.png" alt=""></div>
+<!--                    <div class="col">-->
+<!--                        <div><i class="fab fa-google-plus-g"></i></div>-->
+<!--                        <div><i class="fab fa-twitter"></i></div>-->
+<!--                        <div><i class="fab fa-instagram"></i></div>-->
+<!--                        <div><i class="fab fa-facebook"></i></div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="fontawesome/js/fontawesome.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript">
+        function validate() {
+            var name = $('#name').val(),
+                category = $('#category').val(),
+                phone = $('#phone').val(),
+                city = $('#city').val(),
+                email = $('#email').val(),
+                message = $('#message').val();
+            
+            if(name !== ''){
+                if(!/[a-zA-Z]+/.test(name)){
+                    alert('Sai định dạng name');
+                    return false;
+                }
+            }else{
+                alert('Điền name');
+                return false;
+            }
+            if (category == 0){
+                alert('Chọn category');
+                return false;
+            }
+            if(phone !== ''){
+                if(!/[0-9]{10}/.test(phone)){
+                    alert('Sai định dạng phone');
+                    return false;
+                }
+            }else {
+                alert('Điền phone');
+                return false;
+            }
+            if (city == 0){
+                alert('Chọn city');
+                return false;
+            }
+            if(email !== ''){
+                if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/){
+                    alert('Sai định dạng email');
+                    return false;
+                }
+            }else {
+                alert('Điền email');
+                return false;
+            }
+            if(message !== ''){
+
+            }else {
+                alert('Điền message');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
 </body>
 </html>

@@ -5,41 +5,42 @@
     padding-left: 63px;
 }
 
-#body .title{
-    height: 774px;
-    background: #b7bcbe;
-    position: relative;
-}
-
-.title .menu{
-    height: 78px;
-    background: #898d8e;
-}
-
-.title #slide1{
+#header #banner{
     height: 696px;
 }
 
-#slide1 div img{
-    width: 100%;
+#banner div{
     height: 696px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.title .welcome{
-    position: absolute;
-    bottom: 115px;
-    right: 145px;
+.team-leader{
+    padding-top: 281px;
+    padding-bottom: 320px;
 }
 
-.title .welcome p{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 48px;
-    color: #d7794a;
+.team-leader .top div hr{
+    width: 442px;
+    margin-top: 40px;
+    margin-bottom: 87px;
 }
 
-.title .welcome p span{
-    font-size: 72px;
-    color: #fcf9f7;
+.team-leader .bottom{
+    margin-top: 131px;
+}
+
+.team-leader .bottom .col{
+    text-align: center;
+    width: 448px;
+}
+
+.team-leader .bottom .name{
+    margin-bottom: 55px;
+}
+
+.team-leader .bottom .name span{
+    font-size: 30.56px;
 }
 
 .owl-controls {
@@ -63,8 +64,54 @@
 }
 
 .contact-us{
-    height: 1124px;
     background-color: #2a3e47;
+    padding-bottom: 173px;
+    padding-top: 308px;
+}
+
+.contact-us .title{
+    margin-bottom: 69px;
+}
+
+.contact-us .form{
+    margin-top: 87px;
+}
+
+.contact-us .form .line{
+    margin-bottom: 30px;
+}
+
+.contact-us .form input{
+    border: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+    border-radius: 0px;
+}
+
+.contact-us .form select{
+    border: 0px;
+    border-radius: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+.contact-us .form textarea{
+    border: 0px;
+    border-radius: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+.contact-us .form button{
+    float: right;
+    width: 210px;
+    height: 50px;
+    border-radius: 0px;
+    border: 2px solid #623621;
+    background: #89553b;
 }
 
 .about{
@@ -74,6 +121,20 @@
 
 .gallery{
     height: 1146px;
+}
+
+#slide div{
+    height: 77px;
+}
+
+.slide .bottom{
+    height: 77px;
+    background: #d6d6d6;
+}
+
+.slide .top{
+    height: 766px;
+    background: #c0c7c9;
 }
 
 #footer{
@@ -88,4 +149,5 @@
 #footer .bottom{
     height: 91px;
     background-color: #000000;
+    padding-top: 36px;
 }
