@@ -79,7 +79,7 @@
                 <div class="row form">
                     <div class="col-sm-1"></div>
                     <div class="col-sm-10">
-                        <form class="col-md" action="javascript:void (0)" onsubmit="return validate()">
+                        <form class="col-md" action="success.html" onsubmit="validate()">
                             <div class="form-row line">
                                 <div class="form-group col-md-6">
                                     <input type="text" class="form-control" placeholder="Name" name="name" id="name">
@@ -150,59 +150,57 @@
     <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="fontawesome/js/fontawesome.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
-    <script type="text/javascript">
-        function validate() {
-            var name = $('#name').val(),
-                category = $('#category').val(),
-                phone = $('#phone').val(),
-                city = $('#city').val(),
-                email = $('#email').val(),
-                message = $('#message').val();
-            
-            if(name !== ''){
-                if(!/[a-zA-Z]+/.test(name)){
-                    alert('Sai định dạng name');
-                    return false;
-                }
-            }else{
-                alert('Điền name');
-                return false;
-            }
-            if (category == 0){
-                alert('Chọn category');
-                return false;
-            }
-            if(phone !== ''){
-                if(!/[0-9]{10}/.test(phone)){
-                    alert('Sai định dạng phone');
-                    return false;
-                }
-            }else {
-                alert('Điền phone');
-                return false;
-            }
-            if (city == 0){
-                alert('Chọn city');
-                return false;
-            }
-            if(email !== ''){
-                if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/){
-                    alert('Sai định dạng email');
-                    return false;
-                }
-            }else {
-                alert('Điền email');
-                return false;
-            }
-            if(message !== ''){
+<!--    <script type="text/javascript">-->
+<!--        function validate() {-->
+<!--            var name = $('#name').val(),-->
+<!--                category = $('#category').val(),-->
+<!--                phone = $('#phone').val(),-->
+<!--                city = $('#city').val(),-->
+<!--                email = $('#email').val(),-->
+<!--                message = $('#message').val();-->
 
-            }else {
-                alert('Điền message');
-                return false;
-            }
+<!--            if(name !== ''){-->
+<!--                if(!/[a-zA-Z]+/.test(name)){-->
+<!--                    alert('Sai định dạng name');-->
+<!--                    return false;-->
+<!--                }-->
+<!--            }else{-->
+<!--                alert('Điền name');-->
+<!--                return false;-->
+<!--            }-->
+<!--            if (category == 0){-->
+<!--                alert('Chọn category');-->
+<!--                return false;-->
+<!--            }-->
+<!--            if(phone !== ''){-->
+<!--                if(!/(09|03|07|08|05)+([0-9]{8})/.test(phone)){-->
+<!--                    alert('Sai định dạng phone');-->
+<!--                    return false;-->
+<!--                }-->
+<!--            }else {-->
+<!--                alert('Điền phone');-->
+<!--                return false;-->
+<!--            }-->
+<!--            if (city == 0){-->
+<!--                alert('Chọn city');-->
+<!--                return false;-->
+<!--            }-->
+<!--            if(email !== ''){-->
+<!--                if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/.test(email)){-->
+<!--                    alert('Sai định dạng email');-->
+<!--                    return false;-->
+<!--                }-->
+<!--            }else {-->
+<!--                alert('Điền email');-->
+<!--                return false;-->
+<!--            }-->
+<!--            if(message == ''){-->
+<!--                alert('Điền message');-->
+<!--                return false;-->
+<!--            }-->
 
-            return true;
-        }
-    </script>
+<!--            return true;-->
+<!--        }-->
+<!--    </script>-->
 </body>
 </html>

@@ -9,4 +9,6 @@ $(document).ready(function() {
         autoplayHoverPause:true
     });
 });
-
+function validate() {
+    alert('as');
+}
