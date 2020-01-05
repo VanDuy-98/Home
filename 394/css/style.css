@@ -30,7 +30,7 @@
     margin-top: 131px;
 }
 
-.team-leader .bottom .col{
+.team-leader .bottom .col-lg{
     text-align: center;
     width: 448px;
 }
@@ -43,14 +43,23 @@
     font-size: 30.56px;
 }
 
-.owl-controls {
+.owl-theme{
     position: relative;
-    top: -50px;
+}
+
+.owl-dots{
+    position: absolute;
+    top: 650px;
+    left: 50%;
 }
 
 .team-leader{
     height: 1777px;
     background-color: #ffffff;
+}
+
+.team-leader .col-lg{
+    text-align: center;
 }
 
 .advantages{
@@ -61,6 +70,15 @@
 .advantages .information{
     height: 340px;
     background-color: #1f3138;
+    padding-top: 114px;
+}
+
+.advantages .information .container .line1{
+    margin-bottom: 37px;
+}
+
+.advantages .information .container .row{
+    text-align: center;
 }
 
 .contact-us{
@@ -117,25 +135,33 @@
 .about{
     height: 1265px;
     background-color: #fdfdfd;
+    padding-top: 354px;
+}
+
+.about .image{
+    height: 597px;
+    background: #b2b8ba;
+}
+
+.about .content{
+    border: 2px solid;
 }
 
 .gallery{
     height: 1146px;
 }
 
-#slide div{
-    height: 77px;
+.gallery .content .title{
+    margin-bottom: 93px;
+}
+.gallery .slide .image{
+    height: 400px;
 }
 
-.slide .bottom{
-    height: 77px;
-    background: #d6d6d6;
-}
-
-.slide .top{
-    height: 766px;
-    background: #c0c7c9;
-}
+/*.gallery .slide .button{*/
+/*    height: 100px;*/
+/*    background: #b2b8ba;*/
+/*}*/
 
 #footer{
     height: 387px;
@@ -144,6 +170,41 @@
 #footer .top{
     height: 296px;
     background-color: #1b2c33;
+}
+
+#footer .top .container{
+    padding-top: 67px;
+}
+
+#footer .top .col .title{
+    margin-bottom: 50px;
+    font-size: 23.96px;
+}
+
+#footer .top .col a {
+    text-decoration: none;
+    font-size: 23.96px;
+    color: #d2d3d7;
+}
+
+#footer .top .col{
+    color: #d2d3d7;
+}
+
+#footer .top .col .phone{
+    margin-bottom: 26px;
+}
+
+#footer .top .icon{
+    margin-right: 21px;
+}
+
+#footer .top .phone .number{
+    width: 110px;
+}
+
+#footer .top .address .info{
+    width: 141px;
 }
 
 #footer .bottom{
