@@ -1,0 +1,309 @@
+#logo {
+    height: 120px;
+    background: #ffffff;
+    padding-top: 49px;
+    padding-left: 63px;
+}
+
+#header{
+    /*height: 78px;*/
+    background: #898d8e;
+}
+
+#header .menu ul{
+    height: 78px;
+    padding-left: 60px;
+}
+
+li.nav-item {
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+}
+
+a.nav-link{
+    font-size: 20px;
+    color: #e8e6e6;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 24px;
+    padding-left: 20px;
+}
+
+a.nav-link:hover{
+    color: #302f2f;
+    background: #7d9097;
+}
+
+#banner{
+    height: 696px;
+    position: relative;
+}
+
+.owl-theme{
+    position: relative;
+}
+
+#banner .owl-stage-outer{
+    height: 696px;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+#banner .content{
+    position: absolute;
+    z-index: 2;
+    bottom: 115px;
+    right: 145px;
+}
+
+#team-leader{
+    padding-top: 281px;
+    padding-bottom: 320px;
+}
+
+#team-leader .top div hr{
+    width: 442px;
+    margin-top: 40px;
+    margin-bottom: 87px;
+}
+
+#team-leader .bottom{
+    margin-top: 131px;
+}
+
+#team-leader .bottom .col-lg{
+    text-align: center;
+    width: 448px;
+}
+
+#team-leader .bottom .name{
+    margin-bottom: 55px;
+}
+
+#team-leader .bottom .name span{
+    font-size: 30.56px;
+}
+
+#team-leader .col-lg{
+    text-align: center;
+}
+
+#advantages{
+    background-color: #1f3138;
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+
+#advantages .container .line1{
+    margin-bottom: 37px;
+}
+
+#advantages .container .row{
+    text-align: center;
+}
+
+#contact-us{
+    background-color: #2a3e47;
+    padding-bottom: 173px;
+    padding-top: 308px;
+}
+
+#contact-us .title{
+    margin-bottom: 69px;
+}
+
+#contact-us .form{
+    margin-top: 87px;
+}
+
+#contact-us .form .line{
+    margin-bottom: 30px;
+}
+
+#contact-us .form input{
+    border: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+    border-radius: 0px;
+}
+
+#contact-us .form select{
+    border: 0px;
+    border-radius: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+#contact-us .form textarea{
+    border: 0px;
+    border-radius: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+#contact-us .form button{
+    float: right;
+    width: 210px;
+    height: 50px;
+    border-radius: 0px;
+    border: 2px solid #623621;
+    background: #89553b;
+}
+
+#about-us{
+    background-color: #fdfdfd;
+    padding-top: 354px;
+    padding-bottom: 313px;
+}
+
+#about-us .image{
+    height: 597px;
+    background: #b2b8ba;
+}
+
+#about-us .about{
+    border: 2px solid #d2d3d7;
+    padding-top: 71px;
+    padding-bottom: 37px;
+}
+
+#about-us .about .title{
+    margin-bottom: 40px;
+}
+
+#about-us .about .content{
+    margin-top: 71px;
+
+}
+
+#about-us .about .content .image{
+    height: 138px;
+    width: 138px;
+    border-radius: 50%;
+}
+
+#about-us .about .content .info{
+    border: 2px solid;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+#gallery{
+    padding-top: 189px;
+    padding-bottom: 160px;
+}
+
+#gallery .row .col-lg{
+    text-align: center;
+}
+
+#gallery .content .title{
+    margin-bottom: 93px;
+}
+#gallery .slide .image{
+    height: 400px;
+}
+
+#slide2 .owl-nav{
+    background: #d6d6d6;
+    margin-top: 0px;
+    position: relative;
+    height: 125px;
+}
+
+#slide2 .owl-dots{
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+}
+
+#slide2 .owl-theme .owl-nav [class*=owl-]{
+    margin: 10px;
+}
+
+#slide2 .owl-prev{
+    font-size: 70px;
+    position: absolute;
+    left: 60px;
+}
+
+#slide2 .owl-next{
+    font-size: 70px;
+    position: absolute;
+    right: 60px;
+}
+
+#footer .top{
+    background-color: #1b2c33;
+    padding-top: 67px;
+    padding-bottom: 64px;
+    padding-left: 114px;
+}
+
+#footer .top .container{
+    padding-top: 67px;
+}
+
+#footer .top .col-lg .title{
+    margin-bottom: 50px;
+    font-size: 23.96px;
+}
+
+#footer .top .col-lg a {
+    text-decoration: none;
+    font-size: 23.96px;
+    color: #d2d3d7;
+}
+
+#footer .top .col-lg{
+    color: #d2d3d7;
+}
+
+#footer .top .col-lg .phone{
+    margin-bottom: 26px;
+}
+
+#footer .top .icon{
+    margin-right: 21px;
+}
+
+#footer .top .phone .number{
+    width: 110px;
+}
+
+#footer .top .address .info{
+    width: 141px;
+}
+
+#footer .bottom{
+    background-color: #000000;
+    padding-top: 36px;
+    padding-bottom: 33px;
+    padding-left: 167px;
+}
+
+#footer .bottom .connect i{
+    border: 1px solid;
+    font-size: 24px;
+    padding: 5px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#footer .bottom .connect{
+    text-align: right;
+}
+
+.image img{
+    width: 252px;
+}
