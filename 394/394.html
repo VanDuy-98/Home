@@ -10,279 +10,49 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/theme.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
-    <div id="logo"><img src="css/image/logo.png" alt=""></div>
-    <header id="header">
-        <div class="menu"></div>
-        <div id="banner" class="owl-carousel owl-theme">
-            <div class="item" style="background-image: url('css/image/1.jpg')"></div>
-            <div class="item" style="background-image: url('css/image/2.jpg')"></div>
-            <div class="item" style="background-image: url('css/image/3.jpg')"></div>
-        </div>
-        <div id="content">
-            <img src="css/image/welcome.png" alt="" style="margin-bottom: 43px"><br>
-            <img src="css/image/394_03.png" alt="">
-        </div>
-    </header>
+<!--Logo-->
+    <div class="py-9 pl-10"><img src="css/image/logo.png" alt=""></div>
+
+<!--Menu-->
+    <div id="menu"></div>
+
     <div id="wapper">
-        <div class="team-leader container-fluid ">
-            <div class="row top">
-                <div class="col-lg"></div>
-                <div class="col-lg">
-                    <img src="css/image/teamLeader.png" alt="">
-                    <hr>
-                </div>
-                <div class="col-lg"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg"></div>
-                <div class="col-lg">
-                    <img src="css/image/text.png" alt="">
-                </div>
-                <div class="col-lg"></div>
-            </div>
-            <div class="row bottom">
-                <div class="col-lg">
-                    <div class="image"><img src="css/image/1.jpg" alt=""></div>
-                    <div class="name"><span>Hugo Silva</span></div>
-                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
-                </div>
-                <div class="col-lg">
-                    <div class="image"><img src="css/image/2.jpg" alt=""></div>
-                    <div class="name"><span>Imanol Arias</span></div>
-                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
-                </div>
-                <div class="col-lg">
-                    <div class="image"><img src="css/image/3.jpg" alt=""></div>
-                    <div class="name"><span>Javier Bardem</span></div>
-                    <div class="text"><img src="css/image/lorem.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-        <div class="advantages">
-            <div class="information">
-                <div class="container">
-                    <div class="row line1">
-                        <div class="col">
-                            <img src="css/image/2500.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/300.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/120.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/30.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row line2">
-                        <div class="col">
-                            <img src="css/image/happy.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/notebook.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/teammates.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="css/image/stores.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="slide-adv" class="owl-carousel owl-theme">
-                <div class="item">
-                    <img src="css/image/3.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="css/image/4.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="css/image/5.jpg" alt="">
-                </div>
-
-            </div>
-        </div>
-        <div class="contact-us">
+<!--banner-->
+        <section></section>
+<!--Team-leaders-->
+        <section class="mt-15" id="team-leader">
             <div class="container">
-                <div class="row title">
-                    <div class="col"></div>
-                    <div class="col"><img src="css/image/contactUs.png" alt=""></div>
-                    <div class="col"></div>
-                </div>
-                <div class="row text">
-                    <div class="col"></div>
-                    <div class="col"><img src="css/image/sedUt.png" alt=""></div>
-                    <div class="col"></div>
-                </div>
-                <div class="row form">
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-10">
-                        <form class="col-md" action="success.html" onsubmit="return validate()">
-                            <div class="form-row line">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <select class="form-control" name="category" id="category">
-                                        <option value="0">Category</option>
-                                        <option value="cate1">cate1</option>
-                                        <option value="cate2">cate2</option>
-                                        <option value="cate3">cate3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-row line">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Phone" name="phone" id="phone">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <select class="form-control" name="city" id="city">
-                                        <option value="0">City</option>
-                                        <option value="hanoi">Hà Nội</option>
-                                        <option value="hochiminh">Hồ Chí Minh</option>
-                                        <option value="danang">Đà Nẵng</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group line">
-                                <input type="email" class="form-control" placeholder="Email" name="email" id="email">
-                            </div>
-                            <div class="form-group line">
-                                <label for="message" style="color: #7c7f80;">Message</label>
-                                <textarea class="form-control" rows="3" name="message" id="message" style="resize: none;"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Contact us</button>
-                        </form>
+                <div class="row mb-13">
+                    <div class="col-md-12">
+                        <h1 class="mb-13">OUR TEAM LEADERS</h1>
+                        <span class="mb-13">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
                     </div>
-                    <div class="col-sm-1"></div>
                 </div>
-            </div>
-        </div>
-        <div class="about">
-            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-7">
-                        <div class="image"></div>
+                    <div class="col-md-3 mr-12">
+                        <img src="css/image/1.jpg" alt="">
+                        <h3>Hugo Silva</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
                     </div>
-                    <div class="col-5">
-                        <div class="content container">
-                            <div class="row title">
-                                <div class="col-lg"></div>
-                                <div class="col-lg">
-                                    <img src="css/image/about.png" alt="">
-                                </div>
-                                <div class="col-lg"></div>
-                            </div>
-                            <div class="row text">
-                                <div class="col-lg"></div>
-                                <div class="col-lg">
-                                    <img src="css/image/sedUt.png" alt="">
-                                </div>
-                                <div class="col-lg"></div>
-                            </div>
-                            <div class="row"></div>
-                        </div>
+                    <div class="col-md-3 mr-12">
+                        <img src="css/image/1.jpg" alt="">
+                        <h3>Hugo Silva</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="css/image/1.jpg" alt="">
+                        <h3>Hugo Silva</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="gallery">
-            <div class="content container-fluid">
-                <div class="row title">
-                    <div class="col"></div>
-                    <div class="col">
-                        <img src="css/image/gallery.png" alt="">
-                    </div>
-                    <div class="col"></div>
-                </div>
-                <div class="row text">
-                    <div class="col"></div>
-                    <div class="col">
-                        <img src="css/image/lorem2.png" alt="">
-                    </div>
-                    <div class="col"></div>
-                </div>
-            </div>
-            <div class="">
-            </div>
-        </div>
+        </section>
     </div>
-
-    <footer id="footer">
-        <div class="top">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="title">
-                            <span>CONTENT</span>
-                        </div>
-                        <a href="#">Lorem ipsum</a><br>
-                        <a href="#">Dolor sit</a>
-                    </div>
-                    <div class="col">
-                        <div class="title">
-                            <span>INFORMATION</span>
-                        </div>
-                        <a href="#">Lorem ipsum</a><br>
-                        <a href="#">Onsectetur adipisicing</a>
-                    </div>
-                    <div class="col">
-                        <div class="title">
-                            <span>LEGAL</span>
-                        </div>
-                        <a href="#">Adipisicing elit</a><br>
-                        <a href="#">Sed do eiusmod</a><br>
-                        <a href="#">Tempor incidi</a>
-                    </div>
-                    <div class="col">
-                        <div class="title">
-                            <span>HELP</span>
-                        </div>
-                        <a href="#">Lorem ipsum</a><br>
-                        <a href="#">Onsectetur adipisicing</a>
-                    </div>
-                    <div class="col">
-                        <div class="phone row">
-                            <div class="icon">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="number">
-                                <span>3-6000-0000-6000-000-0000</span>
-                            </div>
-                        </div>
-                        <div class="address row">
-                            <div class="icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="info">
-                                <span>67700 Dagenham St England, GB</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bottom">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col"><img src="css/image/copyRight.png" alt=""></div>
-                    <div class="col">
-                        <div><i class="fab fa-google-plus-g"></i></div>
-                        <div><i class="fab fa-twitter"></i></div>
-                        <div><i class="fab fa-instagram"></i></div>
-                        <div><i class="fab fa-facebook"></i></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
