@@ -1,0 +1,9 @@
+@media screen and (max-width: 414px){
+    #logo{
+        text-align: center;
+    }
+
+    #menu{
+        text-align: center;
+    }
+}

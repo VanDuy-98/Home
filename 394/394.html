@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>394</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/theme.min.css">
@@ -16,38 +21,213 @@
 </head>
 <body>
 <!--Logo-->
-    <div class="py-9 pl-10"><img src="css/image/logo.png" alt=""></div>
+    <div class="py-9 px-9 pl-md-10 py-md-9" id="logo"><img src="css/image/logo.png" alt=""></div>
 
 <!--Menu-->
-    <div id="menu"></div>
+    <header id="header">
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                <i class="fas fa-bars" style="font-size: 25px;"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-md-10">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            TESTIMONIALS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            PORTFOLIO
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            CONTACTS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <div id="wapper">
 <!--banner-->
-        <section></section>
+        <section id="banner"></section>
 <!--Team-leaders-->
-        <section class="mt-15" id="team-leader">
+        <section id="team-leader" class="my-md-14 my-12" >
             <div class="container">
-                <div class="row mb-13">
-                    <div class="col-md-12">
-                        <h1 class="mb-13">OUR TEAM LEADERS</h1>
-                        <span class="mb-13">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                <div class="row mb-13 text-center">
+                    <div class="col-md-12 mb-md-10">
+                        <div class="title">
+                            <h1 class="mb-md-11 mb-10">OUR TEAM LEADERS</h1>
+                            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-md-3 mr-md-12 mb-8">
+                        <div class="content">
+                            <img src="css/image/1.jpg" alt="">
+                            <h3 class="my-md-5 my-5">Hugo Silva</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mr-md-12 mb-8">
+                        <div class="content">
+                            <img src="css/image/1.jpg" alt="">
+                            <h3 class="my-md-5 my-5">Imanol Arias</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <img src="css/image/1.jpg" alt="">
+                            <h3 class="my-md-5 my-5">Imanol Arias</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Advantages-->
+        <section id="advantages" class="py-12">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <h3>2500</h3>
+                            <span>HAPPY CLIENTS</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <h3>300</h3>
+                            <span>FULL NOTEBOOKS</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <h3>120</h3>
+                            <span>TEAMMATES</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <h3>30</h3>
+                            <span>STORES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Slide1-->
+        <section id="slide1"></section>
+
+<!--Contact-us-->
+        <section id="contact-us" class="pt-md-15 pb-md-12 pt-13 pb-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 mb-11 text-center">
+                        <div class="title">
+                            <h3 class="mb-10">CONTACT US</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 mr-12">
-                        <img src="css/image/1.jpg" alt="">
-                        <h3>Hugo Silva</h3>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <div class="col-md-12">
+                        <div class="form">
+                            <form action="">
+                                <div class="row mb-md-6">
+                                    <div class="col-12 mb-6 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 mb-6 col-md-6">
+                                        <select class="form-control">
+                                            <option selected>Category</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-md-6">
+                                    <div class="col-12 mb-6 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Phone">
+                                    </div>
+                                    <div class="col-12 mb-6 col-md-6">
+                                        <select class="form-control">
+                                            <option selected>City</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-md-6">
+                                    <div class="col-12 mb-6 col-md-12">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row form-group mb-md-6">
+                                    <div class="col-12 mb-6 col-md-12">
+                                        <label for="message" style="color: #7c7f80; margin-left: 25px">Message</label>
+                                        <textarea class="form-control" rows="3" ></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 offset-md-9 text-center">
+                                        <button type="submit" class="btn btn-primary">Contact us</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="col-md-3 mr-12">
-                        <img src="css/image/1.jpg" alt="">
-                        <h3>Hugo Silva</h3>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                </div>
+            </div>
+        </section>
+
+<!--About-us-->
+        <section id="about-us" class="py-md-15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="slide"></div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="css/image/1.jpg" alt="">
-                        <h3>Hugo Silva</h3>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+                    <div class="col-md-6 py-md-5 text-center">
+                        <div class="content pt-md-8 pb-md-6">
+                            <h4>ABOUT US</h4>
+                            <p class="mx-md-9">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Gallery-->
+        <section id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>OUR GALLERY</h3>
+                        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>
             </div>

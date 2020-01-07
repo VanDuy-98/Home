@@ -1,8 +1,118 @@
-#menu{
-    height: 78px;
+#header nav{
     background: #898d8e;
 }
 
-#team-leader{
-    text-align: center;
+#menu a{
+    font-size: 20px;
+    color: #e8e6e6;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
 }
+
+#menu a:hover{
+    color: #302f2f;
+}
+
+#team-leader .title h1{
+    font-size: 61.11px;
+    font-family: 'Lora', serif;
+    color: #a95e39;
+}
+
+#team-leader .title p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#team-leader .content h3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#team-leader .content p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#team-leader .content img{
+    width: 270px;
+}
+
+#advantages{
+    background: #1f3138;
+}
+
+#advantages .content h3{
+    font-family: 'Gelasio', serif;
+    font-size: 76.73px;
+    color: #88553b;
+}
+
+#advantages .content span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25.58px;
+    color: #ffffff;
+}
+
+#slide1{
+    height: 500px;
+}
+
+#contact-us{
+    background: #2a3e47;
+}
+
+#contact-us .title h3{
+    font-size: 66.26px;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+}
+
+#contact-us .title p{
+    font-size: 27.61px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #b8b8b8;
+}
+
+#contact-us .form input{
+    border: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+#contact-us .form select{
+    border: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+}
+
+#contact-us .form textarea{
+    border: 0px;
+    background: #2a3e47;
+    border-bottom: 1px solid #b5b6b7;
+    color: #7c7f80;
+    resize: none;
+}
+
+#contact-us .form button{
+    width: 210px;
+    height: 50px;
+    border: 2px solid #623621;
+    background: #89553b;
+}
+
+#about-us .slide{
+    height: 300px;
+    background: #b2b8ba;
+}
+
+#about-us .content{
+    border: 2px solid #d2d3d7;
+}
+
+#about-us .content{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
