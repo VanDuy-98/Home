@@ -1,22 +1,18 @@
 $(document).ready(function () {
     $('#banner .banner').owlCarousel({
         loop:true,
-        margin:10,
         items:1,
     });
 
     $('#slide1 .slide1').owlCarousel({
         loop:true,
-        margin:10,
         items:1,
     });
 
     $('#slide2 .slide2').owlCarousel({
         loop:true,
-        margin:10,
         items:1,
         nav:true,
-        navText: ["<i class='fas fa-arrow-circle-left'></i>","<i class='fas fa-arrow-circle-right'></i>"],
     });
 });
 

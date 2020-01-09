@@ -21,55 +21,69 @@
 </head>
 <body>
 <!--Logo-->
-    <div class="py-9 px-9 pl-md-10 py-md-9" id="logo"><img src="css/image/logo.png" alt=""></div>
+    <div id="logo" class="pl-md-12 ">
+        <a class=""><img src="image/logo.png" alt=""></a>
+    </div>
 
 <!--Menu-->
     <header id="header">
-        <nav class="navbar navbar-expand-sm">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <i class="fas fa-bars" style="font-size: 25px;"></i>
-            </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <nav class="navbar navbar-expand-sm">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                            <i class="fas fa-bars" style="font-size: 25px;"></i>
+                        </button>
 
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ml-md-10">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            HOME
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            SERVICES
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            TESTIMONIALS
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            PORTFOLIO
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            CONTACTS
-                        </a>
-                    </li>
-                </ul>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav ml-md-10">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        ABOUT
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        SERVICES
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        TESTIMONIALS
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        PORTFOLIO
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        CONTACTS
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <div id="wapper">
 <!--banner-->
-        <section id="banner"></section>
+        <section id="banner">
+            <div class="owl-carousel owl-theme banner">
+                <div class="item" style="background-image: url('image/1.jpg')"></div>
+                <div class="item" style="background-image: url('image/2.jpg')"></div>
+                <div class="item" style="background-image: url('image/3.jpg')"></div>
+            </div>
+        </section>
 <!--Team-leaders-->
         <section id="team-leader" class="py-md-14 py-12" >
             <div class="container">
@@ -84,21 +98,21 @@
                 <div class="row text-center">
                     <div class="col-12 col-md-3 mr-md-12 mb-8">
                         <div class="content">
-                            <img src="css/image/1.jpg" alt="">
+                            <img src="image/1.jpg" alt="">
                             <h3 class="my-md-5 my-5">Hugo Silva</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3 mr-md-12 mb-8">
                         <div class="content">
-                            <img src="css/image/1.jpg" alt="">
+                            <img src="image/1.jpg" alt="">
                             <h3 class="my-md-5 my-5">Imanol Arias</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="content">
-                            <img src="css/image/1.jpg" alt="">
+                            <img src="image/1.jpg" alt="">
                             <h3 class="my-md-5 my-5">Imanol Arias</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         </div>
@@ -140,7 +154,13 @@
         </section>
 
 <!--Slide1-->
-        <section id="slide1"></section>
+        <section id="slide1">
+            <div class="owl-carousel owl-theme slide1">
+                <div class="item" style="background-image: url('image/1.jpg')"></div>
+                <div class="item" style="background-image: url('image/2.jpg')"></div>
+                <div class="item" style="background-image: url('image/3.jpg')"></div>
+            </div>
+        </section>
 
 <!--Contact-us-->
         <section id="contact-us" class="pt-md-15 pb-md-12 pt-13 pb-12">
@@ -157,7 +177,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form">
-                            <form action="">
+                            <form action="success.html" onsubmit="return validate()">
                                 <div class="row mb-md-6">
                                     <div class="col-12 mb-6 col-md-6">
                                         <input type="text" class="form-control" placeholder="Name">
@@ -204,17 +224,20 @@
         </section>
 
 <!--About-us-->
-        <section id="about-us" class="py-md-15">
+        <section id="about-us" class="py-md-12 pb-6">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-12">
-                        <div class="slide"></div>
+                        <div class="image1" style="background-image: url('image/1.jpg')"></div>
                     </div>
-                    <div class="col-md-6 col-12 py-md-5 text-center">
-                        <div class="content pt-md-8 pb-md-6 py-6">
-                            <h4>ABOUT US</h4>
-                            <p class="mx-md-9">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam</p>
+                    <div class="col-md-6 col-12 py-md-5 mt-md-0 mt-8 text-center content">
+                        <h4>ABOUT US</h4>
+                        <p class="mx-md-9">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam</p>
+                        <div class="image2">
+                            <div class="first"></div>
+                            <div class="second"></div>
+                            <div class="third"></div>
                         </div>
                     </div>
                 </div>
@@ -232,6 +255,81 @@
                 </div>
             </div>
         </section>
+
+<!--Slide2-->
+        <section id="slide2">
+            <div class="owl-carousel owl-theme slide2">
+                <div class="item" style="background-image: url('image/1.jpg')"></div>
+                <div class="item" style="background-image: url('image/2.jpg')"></div>
+                <div class="item" style="background-image: url('image/3.jpg')"></div>
+            </div>
+        </section>
+
+<!--Footer-->
+        <footer id="footer">
+            <div class="pt-md-7 pb-md-6 pt-8 pb-6 top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md col-6">
+                            <h6>CONTENT</h6>
+                            <ul>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Dolor sit</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-6">
+                            <h6>INFORMATION</h6>
+                            <ul>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Onsectetur adipisicing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-6">
+                            <h6>LEGAL</h6>
+                            <ul>
+                                <li><a href="#">Adipisicing elit</a></li>
+                                <li><a href="#">Sed do eiusmod </a></li>
+                                <li><a href="#">Tempor incidi </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-6">
+                            <h6>HELP</h6>
+                            <ul>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Onsectetur adipisicing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md col-12">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone-alt mr-md-3 mr-3"></i>
+                                    <a href="#">3-6000-0000 -6000-000-0000</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt mr-md-3 mr-3"></i>
+                                    <a href="#">67700 Dagenham St England, GB</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="container">
+                    <div class="row py-md-6 py-6">
+                        <div class="col-md col-12 mb-md-0 mb-5">
+                            <span>Copyright &copy; 2019 . Your companyname All rights reserved</span>
+                        </div>
+                        <div class="col-md-auto col-12 connect">
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>

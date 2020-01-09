@@ -3,9 +3,63 @@
         text-align: center;
     }
 
-    #menu{
-        text-align: center;
+    #menu-mobile{
+        display: block;
     }
 
-    #about-us
+    #footer .top i{
+        float: none;
+        height: 0px;
+    }
+
+    .owl-theme .item{
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 170px;
+    }
+
+    #slide2 .owl-theme .owl-dots{
+        position: absolute;
+        bottom: 90px;
+        left: 170px;
+    }
+
+    #about-us .image{
+        height: 200px;
+    }
+
+    #about-us .content{
+        border: 0px;
+    }
+
+    #about-us .content .image2{
+        height: 320px;
+    }
+
+    #about-us .content .image2 .third:before{
+        top: 330px;
+        left: 135px;
+    }
+
+    #about-us .content .image2 .third:after{
+        top: 450px;
+        left: 115px;
+    }
+
+    #slide2 .slide2 .owl-prev{
+        top: 8px;
+        left: 20px;
+    }
+
+    #slide2 .slide2 .owl-next{
+        top: 8px;
+        right: 20px;
+    }
 }
