@@ -1,0 +1,115 @@
+/*@media screen and (max-width: 360px) {*/
+@media screen
+and (device-width: 768px)
+and (device-height: 1024px)
+and (orientation: portrait){
+    #menu a{
+        font-size: 17px;
+    }
+
+    #banner .caption{
+        bottom: 50px;
+        right: 30px;
+    }
+
+    #banner .caption h1{
+        font-size: 60px;
+    }
+
+    #banner .caption h2{
+        font-size: 40px;
+    }
+
+    .owl-theme .item{
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        left: 350px;
+    }
+
+    #team-leader .title h1{
+        font-size: 55px;
+    }
+
+    #advantages .content h3{
+        font-size: 50px;
+    }
+
+    #advantages .content span{
+        font-size: 20px;
+    }
+
+    #contact-us .title h3{
+        font-size: 50px;
+    }
+
+    #about-us .content{
+        border: 0px;
+    }
+
+    #about-us .content .image2{
+        height: 350px;
+    }
+
+    #about-us .content .image2 .second:before{
+        left: unset;
+        right: 20px;
+    }
+
+    #about-us .content .image2 .second:after{
+        left: unset;
+        right: 0px;
+    }
+
+    #about-us .content .image2 .third:before{
+        bottom: 60px;
+        left: 113px;
+        top: unset;
+    }
+
+    #about-us .content .image2 .third:after{
+        bottom: 0px;
+        left: 94px;
+        top: unset
+    }
+
+    #gallery h2{
+        font-size: 35px;
+    }
+
+    #slide2 .slide2 .owl-stage-outer{
+        position: relative;
+    }
+
+    #slide2 .slide2 .owl-dots{
+        bottom: 60px;
+        left: 135px;
+    }
+
+    #slide2 .slide2 .owl-nav{
+        height: 50px;
+    }
+
+    #slide2 .slide2 .owl-prev{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 30px;
+    }
+
+    #slide2 .slide2 .owl-next{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        right: 30px;
+    }
+
+    #footer .top i{
+        float: none;
+        height: 0px;
+    }
+}

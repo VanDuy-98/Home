@@ -1,0 +1,194 @@
+@media screen
+and (device-width: 411px)
+and (device-height: 823px)
+and (-webkit-device-pixel-ratio: 3.5)
+and (orientation: portrait){
+    #logo{
+        text-align: center;
+    }
+
+    #banner .caption{
+        bottom: 50px;
+        right: 30px;
+    }
+
+    #banner .caption h1{
+        font-size: 30px;
+    }
+
+    #banner .caption h2{
+        font-size: 20px;
+    }
+
+    .owl-theme .item{
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        left: 155px;
+    }
+
+    #team-leader .title h1{
+        font-size: 45px;
+    }
+
+    #advantages .content h3{
+        font-size: 50px;
+    }
+
+    #advantages .content span{
+        font-size: 20px;
+    }
+
+    #contact-us .title h3{
+        font-size: 50px;
+    }
+
+    #about-us .content{
+        border: 0px;
+    }
+
+    #about-us .content .image2{
+        height: 350px;
+    }
+
+    #about-us .content .image2 .second:before{
+        left: unset;
+        right: 20px;
+    }
+
+    #about-us .content .image2 .second:after{
+        left: unset;
+        right: 0px;
+    }
+
+    #about-us .content .image2 .third:before{
+        bottom: 60px;
+        left: 140px;
+        top: unset;
+    }
+
+    #about-us .content .image2 .third:after{
+        bottom: 0px;
+        left: 118px;
+        top: unset
+    }
+
+    #gallery h2{
+        font-size: 40px;
+    }
+
+    #slide2 .slide2 .owl-stage-outer{
+        position: relative;
+    }
+
+    #slide2 .slide2 .owl-dots{
+        bottom: 60px;
+        left: 155px;
+    }
+
+    #slide2 .slide2 .owl-nav{
+        height: 50px;
+    }
+
+    #slide2 .slide2 .owl-prev{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 30px;
+    }
+
+    #slide2 .slide2 .owl-next{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        right: 30px;
+    }
+
+    #footer .top i{
+        float: none;
+        height: 0px;
+    }
+}
+
+@media screen
+and (device-width: 823px)
+and (device-height: 411px)
+and (-webkit-device-pixel-ratio: 3.5)
+and (orientation: landscape) {
+    #menu a{
+        font-size: 15px;
+    }
+
+    .owl-theme .item{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        left: 365px;
+    }
+
+    #banner .caption{
+        bottom: 60px;
+        right: 50px;
+    }
+
+    #banner .caption h1{
+        font-size: 60px;
+    }
+
+    #banner .caption h2{
+        font-size: 35px;
+    }
+
+    #team-leader .title h1{
+        font-size: 50px;
+    }
+
+    #team-leader .content img{
+        width: 400px;
+    }
+
+    #team-leader .content h3{
+        font-size: 40px;
+    }
+
+    #team-leader .content p{
+        font-size: 20px;
+    }
+
+    #advantages .content h3{
+        font-size: 60px;
+    }
+
+    #advantages .content span{
+        font-size: 17px;
+    }
+
+    #about-us .content .image2 .second:before{
+        left: 204px;
+    }
+
+    #about-us .content .image2 .second:after{
+        left: 182px;
+    }
+
+    #gallery h2{
+        font-size: 60px;
+    }
+
+    #slide2 .owl-theme .owl-dots{
+        left: 280px;
+    }
+
+    #footer .top i{
+        float: none;
+        height: 0px;
+    }
+}

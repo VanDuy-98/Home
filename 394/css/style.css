@@ -1,9 +1,31 @@
+#logo{
+    line-height: 92px;
+}
+
 #header{
     background: #898d8e;
 }
 
-#logo{
-    line-height: 92px;
+#banner{
+    position: relative;
+}
+
+#banner .caption{
+    position: absolute;
+    bottom: 114px;
+    right: 130px;
+    z-index: 2;
+}
+
+#banner .caption h1{
+    color: #fcf9f7;
+    font-family: 'Baskervville', serif;
+    font-size: 72px;
+}
+
+#banner .caption h2{
+    color: #d7794a;
+    font-size: 48px;
 }
 
 #menu a{
@@ -33,7 +55,7 @@
 .owl-theme .owl-dots{
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 650px ;
 }
 
 .owl-theme .item{
@@ -138,19 +160,17 @@
 
 #about-us .content .image2{
     height: 180px;
+    position: relative;
 }
 
 #about-us .content{
     border: 2px solid #d2d3d7;
-}
-
-#about-us .content{
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
-#about-us .content{
-    position: relative;
-}
+/*#about-us .content{*/
+/*    position: relative;*/
+/*}*/
 
 #about-us .content .image2 div:before{
     content: ' ';
@@ -163,15 +183,18 @@
 }
 
 #about-us .content .image2 .first:before{
-    left: 35px;
+    top: 0px;
+    left: 20px;
 }
 
 #about-us .content .image2 .second:before{
-    left: 235px;
+    top: 0px;
+    left: 220px;
 }
 
 #about-us .content .image2 .third:before{
-    left: 430px;
+    top: 0px;
+    right: 20px;
 }
 
 #about-us .content .image2 div:after{
@@ -186,17 +209,20 @@
 
 #about-us .content .image2 .first:after{
     content: 'FRIENDLY TEAM';
-    left: 15px;
+    top: 120px;
+    left: 0px;
 }
 
 #about-us .content .image2 .second:after{
     content: 'INVOLVED';
-    left: 220px;
+    top: 120px;
+    left: 200px;
 }
 
 #about-us .content .image2 .third:after{
     content: '24/7 ASSISTANCE';
-    left: 415px;
+    top: 120px;
+    right: 0px;
 }
 
 #gallery h2{
@@ -238,7 +264,7 @@
 #slide2 .owl-theme .owl-dots{
     position: absolute;
     bottom: 90px;
-    left: 50%;
+    left: 650px;
 }
 
 #slide2 .slide2 .owl-nav{

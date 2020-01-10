@@ -1,0 +1,120 @@
+/*@media screen and (max-width: 360px) {*/
+@media screen
+and (device-width: 1024px)
+and (device-height: 1366px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait){
+    #banner .caption{
+        bottom: 100px;
+        right: 50px;
+    }
+
+    #banner .caption h1{
+        font-size: 80px;
+    }
+
+    #banner .caption h2{
+        font-size: 55px;
+    }
+
+    .owl-theme .item{
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        left: 480px;
+    }
+
+    #team-leader .title h1{
+        font-size: 80px;
+    }
+
+    #team-leader .title p{
+        font-size: 25px;
+    }
+
+    #team-leader .content h3{
+        font-size: 30px;
+    }
+
+    #team-leader .content p{
+        font-size: 20px;
+    }
+
+    #advantages .content h3{
+        font-size: 70px;
+    }
+
+    #advantages .content span{
+        font-size: 24px;
+    }
+
+    #contact-us .title h3{
+        font-size: 70px;
+    }
+
+    #about-us .content{
+        border: 0px;
+    }
+
+    #about-us .content .image2 .second:before{
+        left: unset;
+        right: 20px;
+    }
+
+    #about-us .content .image2 .second:after{
+        left: unset;
+        right: 0px;
+    }
+
+    #about-us .content .image2 .third:before{
+        left: 175px;
+    }
+
+    #about-us .content .image2 .third:after{
+        left: 155px;
+    }
+
+    #gallery h2{
+        font-size: 70px;
+    }
+
+    #gallery p{
+        font-size: 25px;
+    }
+
+    #slide2 .slide2 .owl-stage-outer{
+        position: relative;
+    }
+
+    #slide2 .slide2 .owl-dots{
+        bottom: 90px;
+        left: 470px;
+    }
+
+    #slide2 .slide2 .owl-nav{
+        height: 80px;
+    }
+
+    #slide2 .slide2 .owl-prev{
+        width: 60px;
+        height: 60px;
+        top: 5px;
+        left: 30px;
+    }
+
+    #slide2 .slide2 .owl-next{
+        width: 60px;
+        height: 60px;
+        top: 5px;
+        right: 30px;
+    }
+
+    #footer .top i{
+        float: left;
+        height: 30px;
+    }
+}
