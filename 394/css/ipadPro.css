@@ -60,6 +60,13 @@ and (orientation: portrait){
         border: 0px;
     }
 
+    #about-us .image1{
+        height: 340px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
     #about-us .content .image2 .second:before{
         left: unset;
         right: 20px;

@@ -190,38 +190,42 @@
                 <div class="row px-md-12">
                     <div class="col-md-12">
                         <div class="form">
-                            <form action="success.html" onsubmit="return validate()">
+                            <form action="javascript: void (0)" onsubmit="return validate(this)">
                                 <div class="row mb-md-6">
                                     <div class="col-12 mb-6 col-md-6">
-                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" class="form-control" placeholder="Name" name="name" id="name" required>
+<!--                                        <span class="error">*</span>-->
                                     </div>
                                     <div class="col-12 mb-6 col-md-6">
-                                        <select class="form-control">
-                                            <option selected>Category</option>
-                                            <option>...</option>
+                                        <select class="form-control" name="category" id="category">
+                                            <option value=" ">Category</option>
+                                            <option value="1">...</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="row mb-md-6">
                                     <div class="col-12 mb-6 col-md-6">
-                                        <input type="text" class="form-control" placeholder="Phone">
+                                        <input type="text" class="form-control" placeholder="Phone" name="phone" id="phone" required>
+<!--                                        <span class="error">*</span>-->
                                     </div>
                                     <div class="col-12 mb-6 col-md-6">
-                                        <select class="form-control">
-                                            <option selected>City</option>
-                                            <option>...</option>
+                                        <select class="form-control" name="city" id="city">
+                                            <option value=" ">City</option>
+                                            <option value="1">...</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="row mb-md-6">
                                     <div class="col-12 mb-6 col-md-12">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                        <input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
+<!--                                        <span class="error">*</span>-->
                                     </div>
                                 </div>
                                 <div class="row form-group mb-md-6">
                                     <div class="col-12 mb-6 col-md-12">
                                         <label for="message" style="color: #7c7f80; margin-left: 25px">Message</label>
-                                        <textarea class="form-control" rows="3" ></textarea>
+<!--                                        <span class="error">*</span>-->
+                                        <textarea class="form-control" rows="3" name="message" id="message" required></textarea>
                                     </div>
                                 </div>
                                 <div class="row">

@@ -16,53 +16,36 @@ $(document).ready(function () {
     });
 });
 
-function validate() {
-    var name = $('#name').val(),
-        category = $('#category').val(),
-        phone = $('#phone').val(),
-        city = $('#city').val(),
-        email = $('#email').val(),
-        message = $('#message').val();
+function validate(form)
+{
+    var name = form.name.value,
+        category = form.category.value,
+        phone = form.phone.value,
+        city = form.city.value,
+        email = form.email.value,
+        message = form.message.value;
 
-    if(name !== ''){
-        if(!/[a-zA-Z]+/.test(name)){
-            alert('Sai định dạng name');
-            return false;
-        }
-    }else{
-        alert('Điền name');
+    if(!/^[a-zA-Z ]{2,30}$/.test(name))
+    { alert('Sai định dạng name');
+        form.name.focus();
         return false;
     }
-    if (category == 0){
-        alert('Chọn category');
-        return false;
-    }
-    if(phone !== ''){
-        if(!/[0-9]{10}/.test(phone)){
-            alert('Sai định dạng phone');
-            return false;
-        }
-    }else {
-        alert('Điền phone');
-        return false;
-    }
-    if (city == 0){
-        alert('Chọn city');
-        return false;
-    }
-    if(email !== ''){
-        if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/){
-            alert('Sai định dạng email');
-            return false;
-        }
-    }else {
-        alert('Điền email');
-        return false;
-    }
-    if(message !== ''){
 
-    }else {
-        alert('Điền message');
+    if(!/(09|03|07|08|05)+([0-9]{8})/.test(phone)){
+        alert('Sai định dạng phone');
+        form.phone.focus();
+        return false;
+    }
+
+    if(!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/){
+        alert('Sai định dạng email');
+        form.email.focus();
+        return false;
+    }
+
+    if(!/^([a-zA-Z0-9])+[a-zA-Z0-9\.\, ]+$/.test(message)){
+        alert('Tin nhắn không hợp lệ');
+        form.message.focus();
         return false;
     }
 

@@ -39,13 +39,8 @@
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #e09422;
     width: 30px;
     transition: all 0.5s;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-    background: #e09422;
 }
 
 .owl-theme{
@@ -74,6 +69,10 @@
 #team-leader .title p{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#team-leader .content img:hover{
+    box-shadow: 0 15px 20px gray;
 }
 
 #team-leader .content h3{
@@ -149,6 +148,17 @@
     height: 50px;
     border: 2px solid #623621;
     background: #89553b;
+}
+
+#contact-us .form input{
+    position: relative;
+}
+
+#contact-us .form .error{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    color: red
 }
 
 #about-us .image1{
