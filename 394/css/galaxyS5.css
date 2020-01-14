@@ -36,6 +36,10 @@ and (orientation: portrait){
         font-size: 40px;
     }
 
+    #team-leader .title p{
+        font-size: 16px;
+    }
+
     #advantages .content h3{
         font-size: 50px;
     }
@@ -45,7 +49,15 @@ and (orientation: portrait){
     }
 
     #contact-us .title h3{
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    #contact-us .title p{
+        font-size: 18px;
+    }
+
+    #about-us .image1{
+        height: 200px;
     }
 
     #about-us .content{
@@ -80,6 +92,10 @@ and (orientation: portrait){
 
     #gallery h2{
         font-size: 35px;
+    }
+
+    #gallery p{
+        font-size: 16px;
     }
 
     #slide2 .slide2 .owl-stage-outer{
@@ -119,13 +135,13 @@ and (orientation: portrait){
 and (device-width: 640px)
 and (device-height: 360px)
 and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape){
+and (orientation: landscape)        {
     #logo{
-        margin-left: 80px;
+        margin-left: 85px;
     }
 
     #menu a{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .owl-theme .item{
@@ -136,7 +152,7 @@ and (orientation: landscape){
     }
 
     .owl-theme .owl-dots{
-        left: 280px;
+        left: 260px;
     }
 
     #banner .caption{
@@ -145,15 +161,19 @@ and (orientation: landscape){
     }
 
     #banner .caption h1{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     #banner .caption h2{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #team-leader .title h1{
         font-size: 50px;
+    }
+
+    #team-leader .title p{
+        font-size: 17px;
     }
 
     #team-leader .content img{
@@ -161,10 +181,18 @@ and (orientation: landscape){
     }
 
     #team-leader .content h3{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #team-leader .content p{
+        font-size: 17px;
+    }
+
+    #contact-us .title h3{
+        font-size: 60px;
+    }
+
+    #contact-us .title p{
         font-size: 20px;
     }
 
@@ -176,12 +204,20 @@ and (orientation: landscape){
         left: 182px;
     }
 
+    #about-us .content{
+        border: 0px ;
+    }
+
     #gallery h2{
         font-size: 60px;
     }
 
+    #gallery p{
+        font-size: 17px;
+    }
+
     #slide2 .owl-theme .owl-dots{
-        left: 280px;
+        left: 260px;
     }
 
     #footer .top i{

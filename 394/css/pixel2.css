@@ -46,6 +46,10 @@ and (orientation: portrait){
         font-size: 50px;
     }
 
+    #about-us .image1{
+        height: 250px;
+    }
+
     #about-us .content{
         border: 0px;
     }
@@ -118,11 +122,11 @@ and (device-width: 731px)
 and (device-height: 411px)
 and (orientation: landscape) {
     #logo{
-        margin-left: 125px;
+        margin-left: 135px;
     }
 
     #menu a{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .owl-theme .item{
@@ -153,16 +157,24 @@ and (orientation: landscape) {
         font-size: 50px;
     }
 
+    #team-leader .title p{
+        font-size: 18px;
+    }
+
     #team-leader .content img{
-        width: 400px;
+        width: 450px;
     }
 
     #team-leader .content h3{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #team-leader .content p{
-        font-size: 20px;
+        font-size: 17px;
+    }
+
+    #contact-us .title p{
+        font-size: 22px;
     }
 
     #about-us .content .image2 .second:before{
@@ -177,8 +189,12 @@ and (orientation: landscape) {
         font-size: 60px;
     }
 
+    #gallery p{
+        font-size: 18px;
+    }
+
     #slide2 .owl-theme .owl-dots{
-        left: 280px;
+        left: 320px;
     }
 
     #footer .top i{

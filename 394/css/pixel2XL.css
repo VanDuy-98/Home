@@ -47,6 +47,10 @@ and (orientation: portrait){
         font-size: 50px;
     }
 
+    #about-us .image1{
+        height: 220px;
+    }
+
     #about-us .content{
         border: 0px;
     }
@@ -120,7 +124,7 @@ and (device-height: 411px)
 and (-webkit-device-pixel-ratio: 3.5)
 and (orientation: landscape) {
     #menu a{
-        font-size: 15px;
+        font-size: 21px;
     }
 
     .owl-theme .item{
@@ -140,27 +144,31 @@ and (orientation: landscape) {
     }
 
     #banner .caption h1{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #banner .caption h2{
-        font-size: 35px;
+        font-size: 34px;
     }
 
     #team-leader .title h1{
         font-size: 50px;
     }
 
+    #team-leader .title p{
+        font-size: 18px;
+    }
+
     #team-leader .content img{
-        width: 400px;
+        width: 200px;
     }
 
     #team-leader .content h3{
-        font-size: 40px;
+        font-size: 25px;
     }
 
     #team-leader .content p{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #advantages .content h3{
@@ -171,20 +179,55 @@ and (orientation: landscape) {
         font-size: 17px;
     }
 
+    #contact-us .title h3{
+        font-size: 52px;
+    }
+
+    #contact-us .title p{
+        font-size: 25px;
+    }
+
+    #about-us .image1{
+        height: 200px;
+    }
+
+    #about-us .content .image2 div:before{
+        width: 80px;
+        height: 80px;
+    }
+
+    #about-us .content .image2 div:after{
+        width: 100px;
+        font-size: 12px;
+        top: 100px;
+    }
+
+    #about-us .content .image2 .first:before{
+        left: 10px;
+    }
+
     #about-us .content .image2 .second:before{
-        left: 204px;
+        left: 123px;
     }
 
     #about-us .content .image2 .second:after{
-        left: 182px;
+        left: 114px;
+    }
+
+    #about-us .content .image2 .third:before{
+        right: 10px;
     }
 
     #gallery h2{
         font-size: 60px;
     }
 
+    #gallery p{
+        font-size: 18px;
+    }
+
     #slide2 .owl-theme .owl-dots{
-        left: 280px;
+        left: 355px;
     }
 
     #footer .top i{

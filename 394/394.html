@@ -37,13 +37,48 @@
 <!--Menu-->
     <header id="header">
         <div class="container ml-md-10">
-            <div class="row">
+            <div class="row menu">
                 <div class="col-md-12 text-center">
                     <nav class="navbar navbar-expand-sm">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                            <i class="fas fa-bars" style="font-size: 25px;"></i>
-                        </button>
-
+<!--                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">-->
+<!--                            <i class="fas fa-bars" style="font-size: 25px;"></i>-->
+<!--                        </button>-->
+                        <i class="fas fa-bars btn-menu-mb" style="font-size: 25px;"></i>
+                        <div class="menu-mobile">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        ABOUT
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        SERVICES
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        TESTIMONIALS
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        PORTFOLIO
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        CONTACTS
+                                    </a>
+                                </li>
+                            </ul>
+                            <i class="fas fa-times-circle close_menu"></i>
+                        </div>
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -81,6 +116,7 @@
                     </nav>
                 </div>
             </div>
+            <div class="overlay_menu"></div>
         </div>
     </header>
 
@@ -109,14 +145,14 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-12 col-md-3 mr-md-12 mb-8">
+                    <div class="col-12 col-md-3 mr-md-11 mb-8">
                         <div class="content">
                             <img src="image/1.jpg" alt="">
                             <h3 class="my-md-5 my-5">Hugo Silva</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 mr-md-12 mb-8">
+                    <div class="col-12 col-md-3 mr-md-11 mb-8">
                         <div class="content">
                             <img src="image/1.jpg" alt="">
                             <h3 class="my-md-5 my-5">Imanol Arias</h3>
@@ -190,7 +226,7 @@
                 <div class="row px-md-12">
                     <div class="col-md-12">
                         <div class="form">
-                            <form action="javascript: void (0)" onsubmit="return validate(this)">
+                            <form action="success.html" onsubmit="return validate(this)">
                                 <div class="row mb-md-6">
                                     <div class="col-12 mb-6 col-md-6">
                                         <input type="text" class="form-control" placeholder="Name" name="name" id="name" required>

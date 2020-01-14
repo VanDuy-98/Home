@@ -16,6 +16,21 @@ $(document).ready(function () {
     });
 });
 
+$('.btn-menu-mb').click(function () {
+    $('.menu-mobile').toggleClass('open-menu');
+    $('.overlay_menu').toggleClass('show_overlay');
+})
+
+$('.close_menu').click(function () {
+    $('.menu-mobile').toggleClass('open-menu');
+    $('.overlay_menu').toggleClass('show_overlay')
+})
+
+$('.overlay_menu').click(function () {
+    $('.menu-mobile').toggleClass('open-menu');
+    $('.overlay_menu').toggleClass('show_overlay')
+});
+
 function validate(form)
 {
     var name = form.name.value,
@@ -26,7 +41,7 @@ function validate(form)
         message = form.message.value;
 
     if(!/^[a-zA-Z ]{2,30}$/.test(name))
-    { alert('Sai định dạng name');
+    { alert('Tên không hợp lệ');
         form.name.focus();
         return false;
     }
@@ -51,3 +66,5 @@ function validate(form)
 
     return true;
 }
+
+

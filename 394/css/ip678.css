@@ -47,6 +47,10 @@ and (orientation: portrait){
         font-size: 50px;
     }
 
+    #about-us .image1{
+        height: 220px;
+    }
+
     #about-us .content{
         border: 0px;
     }
@@ -88,6 +92,132 @@ and (orientation: portrait){
     #slide2 .slide2 .owl-dots{
         bottom: 60px;
         left: 135px;
+    }
+
+    #slide2 .slide2 .owl-nav{
+        height: 50px;
+    }
+
+    #slide2 .slide2 .owl-prev{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        left: 30px;
+    }
+
+    #slide2 .slide2 .owl-next{
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        right: 30px;
+    }
+
+    #footer .top i{
+        float: none;
+        height: 0px;
+    }
+}
+
+@media screen
+and (device-width: 667px)
+and (device-height: 375px)
+and (-webkit-device-pixel-ratio: 2)
+and (orientation: landscape){
+    #logo{
+        margin-left: 100px;
+    }
+
+    #menu a{
+        font-size: 16px;
+    }
+
+    #banner .caption{
+        bottom: 50px;
+        right: 30px;
+    }
+
+    #banner .caption h1{
+        font-size: 37px;
+    }
+
+    #banner .caption h2{
+        font-size: 25px;
+    }
+
+    .owl-theme .item{
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .owl-theme .owl-dots{
+        left: 280px;
+    }
+
+    #team-leader .title h1{
+        font-size: 40px;
+    }
+
+    #team-leader .title p{
+        font-size: 17px;
+    }
+
+    #team-leader .content img{
+        width: 400px;
+    }
+
+    #advantages .content h3{
+        font-size: 50px;
+    }
+
+    #advantages .content span{
+        font-size: 20px;
+    }
+
+    #contact-us .title h3{
+        font-size: 50px;
+    }
+
+    #contact-us .title p{
+        font-size: 20px;
+    }
+
+    #about-us .image1{
+        height: 220px;
+    }
+
+    #about-us .content{
+        border: 0px;
+    }
+
+    #about-us .content .image2{
+        height: 350px;
+    }
+
+    #about-us .content .image2 .second:before{
+        left: 205px;
+    }
+
+    #about-us .content .image2 .second:after{
+        left: 185px;
+    }
+
+    #gallery h2{
+        font-size: 35px;
+    }
+
+    #gallery p{
+        font-size: 17px;
+    }
+
+    #slide2 .slide2 .owl-stage-outer{
+        position: relative;
+    }
+
+    #slide2 .slide2 .owl-dots{
+        bottom: 60px;
+        left: 280px;
     }
 
     #slide2 .slide2 .owl-nav{
